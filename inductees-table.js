@@ -3,7 +3,7 @@
 function createInducteesTable(data) {
   const columns = [
     { label: "Name", key: "name", sortable: true },
-    { label: "Position", key: "position", sortable: false },
+    { label: "Position", key: "position", sortable: true },
     { label: "Seasons", key: "seasons", sortable: false },
     { label: "Teams", key: "teams", sortable: false, render: row => row.teams.join(", ") },
     { label: "Games", key: "games", sortable: true },
@@ -11,7 +11,7 @@ function createInducteesTable(data) {
     { label: "Assists", key: "assists", sortable: true },
     { label: "Points", key: "points", sortable: true },
     { label: "PIM", key: "pims", sortable: true },
-    { label: "Inducted", key: "inductionYear", sortable: true }
+    { label: "Inductee #", key: "inductionYear", sortable: true }
   ];
 
   let sortKey = "name";
