@@ -45,6 +45,21 @@ const INDUCTEES = [
     inductionYear: 3,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2011-03-12_James_Neal.jpg/250px-2011-03-12_James_Neal.jpg"
   },
+  {
+    id: "niklas_kronwall",
+    name: "Niklas Kronwall",
+    position: "D",
+    seasons: "2003-2019",
+    teams: ["DET"],
+    games: 953,
+    goals: 83,
+    assists: 349,
+    points: 432,
+    pims: 564,
+    blurb: "A warrior on the blue line and the master of the open-ice hit, Niklas Kronwall patrolled Detroit’s defensive zone with grit and intelligence for over a decade. A Stanley Cup champion in 2008 and a key piece of the Red Wings’ consistent playoff runs, Kronwall combined solid two-way play with bone-rattling checks that earned their own nickname — “Kronwalled.” Reliable, respected, and fierce, he epitomized what it meant to leave everything on the ice.",
+    inductionYear: 4,
+    img: "https://files.eliteprospects.com/layout/players/55-kronwell,-niklas-(9).jpg"
+  },
   
   // Add more inductees here!
 ];
