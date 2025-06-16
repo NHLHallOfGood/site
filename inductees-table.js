@@ -2,7 +2,7 @@
 
 function createInducteesTable(data) {
   const columns = [
-    { label: "Name", key: "name", sortable: true },
+    { label: "Name     ", key: "name", sortable: true },
     { label: "Position", key: "position", sortable: true },
     { label: "Seasons", key: "seasons", sortable: false },
     { label: "Teams", key: "teams", sortable: false, render: row => row.teams.join(", ") },
